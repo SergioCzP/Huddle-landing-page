@@ -60,14 +60,15 @@ h2 {
 }
 
 .header__logo {
-  width: 10rem;
+  width: 10.5rem;
   /* height: 2.5rem; */
   object-fit: contain;
 }
 
 .header__try {
   line-height: 1;
-  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  padding: 1rem 2.25rem;
   font-weight: 700;
 
   background-color: var(--white);

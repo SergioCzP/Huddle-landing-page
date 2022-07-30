@@ -52,7 +52,7 @@ p {
 /* Header */
 .header {
   background-image: url("../images/bg-hero-mobile.svg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   max-width: 42rem;
   margin: 0 auto;
 }

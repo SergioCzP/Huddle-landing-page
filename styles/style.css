@@ -1,0 +1,84 @@
+:root {
+  /* Primary Colors */
+  --pink: hsl(322, 100%, 66%);
+  /* Neutral Colors */
+  --veryPaleCyan: hsl(193, 100%, 96%);
+  --veryDarkCyan: hsl(192, 100%, 9%);
+  --grayishBlue: hsl(208, 11%, 55%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  /* Fonts */
+  --bodyFont: "Open Sans", sans-serif;
+  --headingFont: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--bodyFont);
+  font-size: 1.8rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: var(--headingFont);
+  font-weight: 600;
+}
+
+/* Header */
+.header {
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.header__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.header__logo {
+  width: 10rem;
+  /* height: 2.5rem; */
+  object-fit: contain;
+}
+
+.header__try {
+  line-height: 1;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  font-weight: 700;
+
+  background-color: var(--white);
+  color: var(--black);
+
+  box-shadow: 0rem 0.2rem 0.5rem 0rem rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0rem 0.2rem 0.5rem 0rem rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0rem 0.2rem 0.5rem 0rem rgba(0, 0, 0, 0.25);
+
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  border-radius: 10rem;
+}

@@ -292,3 +292,21 @@ p {
 .footer__copy {
   text-align: center;
 }
+
+/* Attribution */
+.attribution {
+  margin: 0 auto;
+  padding: 2rem 0;
+  max-width: 42rem;
+  background-color: var(--veryDarkCyan);
+}
+
+.attribution__paragraph {
+  text-align: center;
+  color: var(--white);
+}
+
+.attribution__link {
+  display: inline;
+  color: var(--pink);
+}

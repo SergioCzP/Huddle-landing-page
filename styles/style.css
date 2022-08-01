@@ -636,7 +636,7 @@ p {
 @media (min-width: 768px) {
   .attribution {
     max-width: 144rem;
-    padding: 5rem 0;
+    padding: 5rem 0 0;
   }
 }
 
